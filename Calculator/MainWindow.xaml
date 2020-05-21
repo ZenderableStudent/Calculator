@@ -1,0 +1,20 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator"
+        mc:Ignorable="d"
+        Title="Calculator" Height="450" Width="800">
+    <Grid Height="420">
+        <Label Name="firstNumberLabel" Content="First number:" Margin="29,28,607.6,354" FontSize="18"></Label>
+        <Label Name="secondNumberLabel" Content="Second number:" Margin="29,96,607.6,286" FontSize="18"></Label>
+        <TextBox Name="txbFirstNumber" Text="1" Margin="235,39,446.6,354" FontSize="18" TextAlignment="Center"></TextBox>
+        <TextBox Name="txbSecondNumber" Text="1" Margin="235,101,446.6,292" FontSize="18" TextAlignment="Center"></TextBox>
+        <Button Name="calculateButton" Margin="511,39,87.6,292" RenderTransformOrigin="0.117,0.764" Content="Calculate" FontSize="24" Click="calculateButton_Click"></Button>
+        <Label Name="sumAll" Margin="29,177,296.6,203" FontSize="18"></Label>
+        <Label Name="subAll" Margin="29,361,296.6,19" FontSize="18"></Label>
+        <Label Name="divideAll" Margin="29,295,296.6,85" FontSize="18"></Label>
+        <Label Name="multiplyAll" Margin="29,236,296.6,144" FontSize="18"></Label>
+    </Grid>
+</Window>
